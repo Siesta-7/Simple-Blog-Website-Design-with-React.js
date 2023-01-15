@@ -1,0 +1,48 @@
+.login{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url("https://images.pexels.com/photos/159686/desk-pencil-draw-table-159686.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    
+}
+.loginTitle{
+    font-size: 50px;
+}
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.loginForm > label{
+    margin: 10px 0;
+}
+.loginForm > input{
+    padding: 10px;
+    border: none;
+    background-color: white;
+}
+
+.loginButton{
+    margin-top: 20px;
+    background-color: lightcoral;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.loginRegisterButton{
+    position: absolute;
+    top:70px;
+    right:20px;
+    background-color:teal;
+    cursor:pointer;
+    border: none;
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+}

@@ -1,0 +1,48 @@
+.register{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url("https://images.pexels.com/photos/159686/desk-pencil-draw-table-159686.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    
+}
+.registerTitle{
+    font-size: 50px;
+}
+.registerForm{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.registerForm > label{
+    margin: 10px 0;
+}
+.registerForm > input{
+    padding: 10px;
+    border: none;
+    background-color: white;
+}
+
+.registerButton{
+    margin-top: 20px;
+    background-color: teal;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.registerLoginButton{
+    position: absolute;
+    top:70px;
+    right:20px;
+    background-color:lightcoral;
+    cursor:pointer;
+    border: none;
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+}
